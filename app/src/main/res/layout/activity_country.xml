@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CountryActivity"
+    android:background="@color/myBlue"
     android:orientation="vertical"
     >
     <EditText
@@ -15,12 +16,14 @@
         android:drawablePadding="5dp" android:layout_margin="10dp"
         android:imeOptions="actionSearch"
         android:maxLines="1"
+        android:background="@color/myBlue"
         android:drawableLeft="@drawable/ic_search"
         />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="12dp"
+        android:background="@color/myBlue"
         >
         <TextView
             android:id="@+id/sno"
@@ -30,15 +33,17 @@
             android:layout_marginLeft="15dp"
             android:text="S. No"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:background="@color/myBlue"
+            android:textColor="@color/white"
             android:fontFamily="@font/acme"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/sno"
+            android:background="@color/myBlue"
             android:text="Country Name"
             android:layout_marginLeft="85dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:fontFamily="@font/acme"
             />
@@ -47,15 +52,17 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="10dp"
+            android:background="@color/myBlue"
             android:layout_marginStart="10dp"
             android:text="Total Cases"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:fontFamily="@font/acme"/>
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/countries"
+        android:background="@color/myBlue"
         tools:listitem="@layout/country_item_layout"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

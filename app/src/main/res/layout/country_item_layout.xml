@@ -5,12 +5,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="3dp"
     app:layout_goneMarginTop="8dp"
+    android:background="@color/myBlue"
     >
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="7dp"
-        android:layout_marginHorizontal="12dp">
+        android:background="@color/myBlue"
+        android:padding="10dp"
+        >
 
         <TextView
             android:id="@+id/serialNumber"
@@ -22,7 +24,8 @@
             android:text="123"
             android:layout_centerVertical="true"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
+            android:background="@color/myBlue"
             android:fontFamily="@font/acme"/>
 
         <ImageView
@@ -38,12 +41,13 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
+            android:background="@color/myBlue"
             android:layout_marginHorizontal="10dp"
             android:text="India"
             android:layout_centerVertical="true"
             android:textSize="18sp"
             android:layout_toEndOf="@+id/countryImage"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:fontFamily="@font/acme"/>
 
         <TextView
@@ -54,9 +58,10 @@
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
             android:text="123"
+            android:background="@color/myBlue"
             android:layout_centerVertical="true"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:fontFamily="@font/acme"/>
     </RelativeLayout>
 
